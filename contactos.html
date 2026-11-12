@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Coca-Cola</title>
+  <link rel="icon" type="image/jpeg" href="img/favicon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;700;800&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="interna">
+  <header class="cabecera">
+    <a class="logo" href="index.html">Coca-Cola</a>
+  <nav aria-label="Menú principal">
+    <ul class="menu">
+      <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+      <li><a href="nosotros.html"><i class="fa-solid fa-users"></i> Nosotros</a></li>
+      <li><a href="blog.html"><i class="fa-solid fa-pen"></i> Blog</a></li>
+      <li><a href="galeria.html"><i class="fa-solid fa-image"></i> Galería</a></li>
+      <li><a href="videos.html"><i class="fa-solid fa-video"></i> Videos</a></li>
+      <li><a href="contactos.html" class="activo"><i class="fa-solid fa-address-book"></i> Contacto</a></li>
+    </ul>
+  </nav>
+  </header>
+  <main class="contenido ancho">
+    <section class="fondo-degradado">
+      <h2 class="centrado">Contáctanos</h2>
+      <div class="contacto-grid">
+        <div>
+          <table class="info">
+            <caption>Información de contacto</caption>
+            <tr><th scope="row">Dirección</th><td>Av. República de Panamá 4050, Surquillo, Lima 15047</td></tr>
+            <tr><th scope="row">Teléfonos</th><td>924356890</td></tr>
+            <tr><th scope="row">Email</th><td>cocacola@gmail.com</td></tr>
+            <tr><th scope="row">Horario</th><td>Lunes a viernes, de 8 am a 6 pm</td></tr>
+          </table>
+          <img class="foto-contacto" src="img/vaso.jpg" alt="Vaso con hielo">
+        </div>
+        <form action="#" method="post" class="formulario">
+          <label for="nombre">Nombre y apellido</label>
+          <input id="nombre" name="nombre" type="text" required>
+          <label for="cel">Celular*</label>
+          <input id="cel" name="cel" type="tel" placeholder="999 999 999" required>
+          <label for="correo">Correo electrónico*</label>
+          <input id="correo" name="correo" type="email" placeholder="nombre@dominio.com" required>
+          <label for="ruc">RUC - Empresa (opcional)</label>
+          <input id="ruc" name="ruc" type="text">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu consulta"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <section class="mapa">
+  <h3>Local central</h3>
+  <iframe title="Mapa del local central" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.1059177317734!2d-77.0188027!3d-12.104901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c87303d0b719%3A0xa2ecf3d7128f32d5!2sAv.%20Rep%C3%BAblica%20de%20Panam%C3%A1%204050%2C%20Surquillo%2015047!5e0!3m2!1ses-419!2spe!4v1794500675309!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>">
+  </iframe>
+</section>
+  </main>
+  <footer class="pie">
+    <p>Síguenos en nuestras redes sociales:</p>
+    <ul class="redes">
+      <li><a href="https://x.com/CocaCola" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/CocaCola" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="https://www.instagram.com/cocacola" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://www.tiktok.com/@cocacola" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+    </ul>
+    <small>Proyecto académico · Diseño y Desarrollo Web · ISIL 2026-20 · Coca-Cola es una marca registrada de The Coca-Cola Company</small>
+  </footer>
+</body>
+</html>
